@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #3b82f6;
+    --color-secondary: #8b5cf6;
+    --color-dark-bg: #0f172a;
+    --color-card-bg: #1e293b;
+}
+
+body {
+    background-color: var(--color-dark-bg);
+    color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
