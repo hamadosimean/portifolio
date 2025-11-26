@@ -8,7 +8,7 @@ function Projects() {
         {
             title: "SapSapPay",
             description: "A Full Stack Payment App, that allow users to make payments to merchants.",
-            techStack: ["Django", "Django Rest Framework", "PostgreSQL", "React Native", "React", "NativeWind"],
+            techStack: ["Django", "Django Rest Framework", "redis", "PostgreSQL", "React Native", "React", "NativeWind"],
             github: "https://github.com/hamadosimean/sapsappay",
             link: "#",
             image: sapSapPay
@@ -16,7 +16,7 @@ function Projects() {
         {
             title: "ToggreSaaya",
             description: "A Full Stack queue management application. that allow users to track their queue position and get notified when it's their turn from home",
-            techStack: ["Django", "Django Rest Framework", "PostgreSQL", "React", "React Native", "NativeWind"],
+            techStack: ["Django", "Django Rest Framework", "redis", "PostgreSQL", "React", "React Native", "NativeWind"],
             link: "http://144.91.109.155:3000/",
             github: "#",
             image: toogreSaaya

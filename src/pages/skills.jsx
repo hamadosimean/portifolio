@@ -8,7 +8,7 @@ function Skills() {
         },
         {
             title: "Backend Development",
-            skills: ["Django", "Django Rest Framework", "Python", "RESTful APIs"]
+            skills: ["Django", "Django Rest Framework", "redis", "Python", "RESTful APIs"]
         },
         {
             title: "Machine Learning & AI",
