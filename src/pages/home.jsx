@@ -139,9 +139,24 @@ function Home() {
                         className='grid grid-cols-1 md:grid-cols-3 gap-8'
                     >
                         {[
-                            { name: 'Google IT Support Specialization', image: googleIT },
-                            { name: 'Meta Database Engineer Specialization', image: metaDatabase },
-                            { name: 'Meta Backend Engineer Specialization', image: metaBackend }
+                            {
+                                name: 'Google IT Support Specialization',
+                                image: googleIT,
+                                skills: ['Network Protocols', 'System Administration', 'Troubleshooting', 'Customer Service', 'Linux'],
+                                certificateUrl: 'https://www.coursera.org/account/accomplishments/professional-cert/certificate/94EGAME5FOIX'
+                            },
+                            {
+                                name: 'Meta Database Engineer Specialization',
+                                image: metaDatabase,
+                                skills: ['MySQL', 'Database Design', 'SQL Queries', 'Database Optimization', 'Python'],
+                                certificateUrl: 'https://www.coursera.org/account/accomplishments/professional-cert/AN3PX7JOZ3QX'
+                            },
+                            {
+                                name: 'Meta Backend Engineer Specialization',
+                                image: metaBackend,
+                                skills: ['Django', 'REST APIs', 'Authentication', 'Database Management', 'Version Control'],
+                                certificateUrl: 'https://www.coursera.org/account/accomplishments/professional-cert/883ZH75G5ORK'
+                            }
                         ].map((cert, index) => (
                             <motion.div
                                 key={index}
@@ -153,8 +168,41 @@ function Home() {
                                     <img src={cert.image} alt={cert.name} className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110' />
                                     <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
                                 </div>
-                                <div className='p-6'>
+                                <div className='p-6 space-y-4'>
                                     <h3 className='font-semibold text-lg text-white group-hover:text-blue-400 transition-colors'>{cert.name}</h3>
+
+                                    {/* Skills Gained */}
+                                    <div className='text-left'>
+                                        <p className='text-sm text-gray-400 mb-2 font-medium'>Skills Gained:</p>
+                                        <div className='flex flex-wrap gap-2'>
+                                            {cert.skills.map((skill, idx) => (
+                                                <span
+                                                    key={idx}
+                                                    className='text-xs px-3 py-1 bg-slate-700/50 rounded-full text-blue-300 border border-slate-600 hover:border-blue-500 transition-colors'
+                                                >
+                                                    {skill}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    </div>
+
+                                    {/* Certificate Link */}
+                                    <a
+                                        href={cert.certificateUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className='inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-medium text-sm transition-colors group/link'
+                                    >
+                                        <span>View Certificate</span>
+                                        <svg
+                                            className="w-4 h-4 transition-transform group-hover/link:translate-x-1"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </motion.div>
                         ))}
