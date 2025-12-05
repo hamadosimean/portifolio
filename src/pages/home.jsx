@@ -143,7 +143,7 @@ function Home() {
                                 name: 'Google IT Support Specialization',
                                 image: googleIT,
                                 skills: ['Network Protocols', 'System Administration', 'Troubleshooting', 'Customer Service', 'Linux'],
-                                certificateUrl: 'https://www.coursera.org/account/accomplishments/professional-cert/certificate/94EGAME5FOIX'
+                                certificateUrl: 'https://www.coursera.org/account/accomplishments/professional-cert/94EGAME5FOIX'
                             },
                             {
                                 name: 'Meta Database Engineer Specialization',
