@@ -24,9 +24,9 @@ function NavBar() {
                     <div className="flex justify-between items-center h-16">
                         {/* Logo/Brand */}
                         <Link to="/" className="flex items-center space-x-2 group">
-                            <span className="text-2xl font-bold gradient-text">SH</span>
+                            <span className="text-2xl font-bold gradient-text">HS</span>
                             <span className="hidden sm:block text-gray-300 font-medium group-hover:text-white transition-colors">
-                                Portfolio
+                                Hamado Simean
                             </span>
                         </Link>
 
