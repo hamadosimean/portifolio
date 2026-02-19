@@ -9,7 +9,7 @@ function About() {
         <img
           src={image}
           alt="myimage"
-          className="mx-auto rounded-full min-w-full min-h-full  object-contain border border-slate-700 hover:border-blue-500 transition-colors duration-300 hover:shadow-lg hover:shadow-blue-500 hover:scale-110 cursor-pointer"
+          className="mx-auto my-4 rounded-md min-w-full min-h-full  object-contain border border-slate-700 hover:border-blue-500 transition-colors duration-300 hover:shadow-blue-500 hover:cursor-pointer"
         />
         {/* Bio Section */}
         <section className="bg-slate-800/50 p-8 rounded-2xl border border-slate-700">
