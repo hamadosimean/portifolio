@@ -9,7 +9,7 @@ function About() {
         <img
           src={image}
           alt="myimage"
-          className="mx-auto rounded-full w-64 h-64 object-cover border border-slate-700 hover:border-blue-500 transition-colors duration-300 hover:shadow-lg hover:shadow-blue-500 hover:scale-110 cursor-pointer"
+          className="mx-auto rounded-full min-w-full min-h-full  object-contain border border-slate-700 hover:border-blue-500 transition-colors duration-300 hover:shadow-lg hover:shadow-blue-500 hover:scale-110 cursor-pointer"
         />
         {/* Bio Section */}
         <section className="bg-slate-800/50 p-8 rounded-2xl border border-slate-700">
@@ -59,7 +59,7 @@ function About() {
               <div className="absolute -left-[9px] top-0 w-4 h-4 bg-blue-500 rounded-full"></div>
               <h3 className="text-xl font-bold">Software Engineer</h3>
               <p className="text-gray-400 text-sm mb-2">
-                GUESS SOLOMNDE SARL | 2024 - Present
+                GUESS SOLOMNDE SARL | Jannuary 2025 - Present
               </p>
               <p className="text-gray-300">
                 Developed and maintained web applications using React and

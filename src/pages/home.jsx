@@ -47,7 +47,7 @@ function Home() {
             variants={fadeInUp}
             className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto"
           >
-            <p>Software Engineer | Machine Learning Engineer | Data Analyst</p>
+            <p>Software Engineer | Machine Learning Engineer | Data Engineer</p>
           </motion.div>
           <motion.div variants={fadeInUp} className="flex gap-4 justify-center">
             <Link
@@ -81,7 +81,8 @@ function Home() {
             software solutions and deriving insights from data. With a strong
             foundation in Software Engineering, Machine Learning, and Data
             Analysis, I bridge the gap between complex algorithms and
-            user-friendly applications.
+            user-friendly applications. My day to day work involve developing
+            robust app, AI agents to assist human Agents
           </p>
           <Link
             to="/about"
