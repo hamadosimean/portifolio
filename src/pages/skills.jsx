@@ -21,7 +21,7 @@ import {
   SiLinux,
   SiWireguard,
   SiWireshark,
-  SiVsco, 
+  SiVsco,
   SiJupyter,
   SiTensorflow,
   SiPytorch,
@@ -62,7 +62,7 @@ function Skills() {
     CSS3: SiCss3,
     "Tailwind CSS": SiTailwindcss,
     "JavaScript (ES6+)": SiJavascript,
-    
+
     // Backend
     Django: SiDjango,
     "Django Rest Framework": SiDjango,
@@ -73,7 +73,7 @@ function Skills() {
     SQL: FaDatabase,
     grafana: SiGrafana,
     prometheus: SiPrometheus,
-    
+
     // ML & AI
     TensorFlow: SiTensorflow,
     PyTorch: SiPytorch,
@@ -84,7 +84,7 @@ function Skills() {
     NumPy: SiNumpy,
     "Computer Vision": FaEye,
     NLP: FaBrain,
-    
+
     // Database & Cloud
     PostgreSQL: SiPostgresql,
     MySQL: SiMysql,
@@ -92,13 +92,13 @@ function Skills() {
     AWS: SiAmazonwebservices,
     "Google Cloud Platform": SiGooglecloud,
     Docker: SiDocker,
-    
+
     // Cyber Security
     "Penetration Testing": GiTargetShot,
     "Ethical Hacking": MdSecurity,
     "Network Security": FaNetworkWired,
     "Data Security": FaShieldAlt,
-    
+
     // Tools & Others
     Git: SiGit,
     GitHub: SiGithub,
@@ -110,12 +110,12 @@ function Skills() {
     "VS Code": SiVsco,
     "Jupyter Notebooks": SiJupyter,
     "Agile Methodologies": FaUsers,
-    
+
     // Languages
     English: FaLanguage,
     French: FaLanguage,
     Moore: FaLanguage,
-    
+
     // Soft Skills
     Teamwork: FaUsers,
     "Problem Solving": FaLightbulb,
@@ -198,6 +198,9 @@ function Skills() {
         "VS Code",
         "Jupyter Notebooks",
         "Agile Methodologies",
+        "Linux",
+        "MacOS",
+        "Windows",
       ],
     },
     {
