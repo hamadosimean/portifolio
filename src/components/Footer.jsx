@@ -7,7 +7,13 @@ function Footer() {
         Software Engineer
       </p>
       <p className="text-center text-gray-300 text-xl sm:text-2xl md:text-3xl">
-        Hamado Simean {new Date().getFullYear()} &copy; All rights reserved.
+        Hamado Simean {new Date().getFullYear()} &copy; All rights reserved.{" "}
+        <a
+          href="mailto:hamadosimean20@gmail.com"
+          className="text-blue-500 hover:underline"
+        >
+          hamadosimean20@gmail.com
+        </a>
       </p>
     </footer>
   );

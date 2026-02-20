@@ -41,8 +41,9 @@ function About() {
                 Kaya University Center| Science and Technology | 2020 - 2024
               </p>
               <p className="mt-2 text-gray-300">
-                Focused on Algorithms, Statistics, Data Structures, and Software
-                Engineering principles.
+                Focused on Algorithms, Probability,Statistics,
+                Database,Mathematics, Data Structures, and Software Engineering
+                principles.
               </p>
             </div>
             {/* Add more education items if needed */}
@@ -59,19 +60,18 @@ function About() {
               <div className="absolute -left-[9px] top-0 w-4 h-4 bg-blue-500 rounded-full"></div>
               <h3 className="text-xl font-bold">Software Engineer</h3>
               <p className="text-gray-400 text-sm mb-2">
-                GUESS SOLOMNDE SARL | Jannuary 2025 - Present
+                GUESS SOLOMNDE SARL | January 2025 - Present
               </p>
               <p className="text-gray-300">
-                Developed and maintained web applications using React and
-                Django, Python. Collaborated with cross-functional teams to
-                deliver features on time.
+                Developed and maintained software applications. Collaborated
+                with cross-functional teams to deliver features on time.
               </p>
             </div>
             <div className="relative pl-8 border-l-2 border-slate-700 pb-8 last:pb-0">
               <div className="absolute -left-[9px] top-0 w-4 h-4 bg-purple-500 rounded-full"></div>
-              <h3 className="text-xl font-bold">Data Analyst Intern</h3>
+              <h3 className="text-xl font-bold">Data Analytics Intern</h3>
               <p className="text-gray-400 text-sm mb-2">
-                ONG TREE AID| Jully 01 2024 - December 31 2024
+                ONG TREE AID| July 01 2024 - December 31 2024
               </p>
               <p className="text-gray-300">
                 Analyzed large datasets to identify trends and patterns.
@@ -109,6 +109,7 @@ function About() {
           </h2>
           <div className="flex flex-wrap gap-3">
             {[
+              "Writing",
               "Open Source",
               "AI Research",
               "Cloud Computing",
