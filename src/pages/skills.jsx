@@ -31,6 +31,8 @@ import {
   SiNumpy,
   SiGrafana,
   SiPrometheus,
+  SiFigma,
+  SiPhotopea,
 } from "react-icons/si";
 import {
   FaNetworkWired,
@@ -108,6 +110,8 @@ function Skills() {
     nmap: FaNetworkWired,
     wireshark: SiWireshark,
     "VS Code": SiVsco,
+    Figma: SiFigma,
+    PhotoShop: SiPhotopea,
     "Jupyter Notebooks": SiJupyter,
     "Agile Methodologies": FaUsers,
 
@@ -201,6 +205,8 @@ function Skills() {
         "Linux",
         "MacOS",
         "Windows",
+        "Figma",
+        "PhotoShop",
       ],
     },
     {
